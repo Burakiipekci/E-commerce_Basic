@@ -1,0 +1,12 @@
+C:\Users\burak.ipekci\Documents\GitHub\E-commerce_Basic\ECommerceAPI\Core\ECoommerceAPI.Application\bin\Debug\net6.0\ECommerceAPI.Application.deps.json
+C:\Users\burak.ipekci\Documents\GitHub\E-commerce_Basic\ECommerceAPI\Core\ECoommerceAPI.Application\bin\Debug\net6.0\ECommerceAPI.Application.dll
+C:\Users\burak.ipekci\Documents\GitHub\E-commerce_Basic\ECommerceAPI\Core\ECoommerceAPI.Application\bin\Debug\net6.0\ECommerceAPI.Application.pdb
+C:\Users\burak.ipekci\Documents\GitHub\E-commerce_Basic\ECommerceAPI\Core\ECoommerceAPI.Application\obj\Debug\net6.0\ECommerceAPI.Application.csproj.AssemblyReference.cache
+C:\Users\burak.ipekci\Documents\GitHub\E-commerce_Basic\ECommerceAPI\Core\ECoommerceAPI.Application\obj\Debug\net6.0\ECommerceAPI.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\burak.ipekci\Documents\GitHub\E-commerce_Basic\ECommerceAPI\Core\ECoommerceAPI.Application\obj\Debug\net6.0\ECommerceAPI.Application.AssemblyInfoInputs.cache
+C:\Users\burak.ipekci\Documents\GitHub\E-commerce_Basic\ECommerceAPI\Core\ECoommerceAPI.Application\obj\Debug\net6.0\ECommerceAPI.Application.AssemblyInfo.cs
+C:\Users\burak.ipekci\Documents\GitHub\E-commerce_Basic\ECommerceAPI\Core\ECoommerceAPI.Application\obj\Debug\net6.0\ECommerceAPI.Application.csproj.CoreCompileInputs.cache
+C:\Users\burak.ipekci\Documents\GitHub\E-commerce_Basic\ECommerceAPI\Core\ECoommerceAPI.Application\obj\Debug\net6.0\ECommerceAPI.Application.dll
+C:\Users\burak.ipekci\Documents\GitHub\E-commerce_Basic\ECommerceAPI\Core\ECoommerceAPI.Application\obj\Debug\net6.0\refint\ECommerceAPI.Application.dll
+C:\Users\burak.ipekci\Documents\GitHub\E-commerce_Basic\ECommerceAPI\Core\ECoommerceAPI.Application\obj\Debug\net6.0\ECommerceAPI.Application.pdb
+C:\Users\burak.ipekci\Documents\GitHub\E-commerce_Basic\ECommerceAPI\Core\ECoommerceAPI.Application\obj\Debug\net6.0\ref\ECommerceAPI.Application.dll

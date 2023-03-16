@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace ECommerceAPI.Domain.Entities.Common
 {
-    internal class BaseEntity
+    public abstract class BaseEntity
     {
+        public Guid Id { get; set; }
+        public DateTime CreatedDate { get; set; }
     }
 }
