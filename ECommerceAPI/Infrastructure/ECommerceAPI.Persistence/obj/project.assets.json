@@ -546,6 +546,20 @@
           "buildTransitive/net6.0/System.Text.Json.targets": {}
         }
       },
+      "ECommerceAPI.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "ECommerceAPI.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "7.0.4"
+        },
+        "compile": {
+          "bin/placeholder/ECommerceAPI.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ECommerceAPI.Application.dll": {}
+        }
+      },
       "ECommerceAPI.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -1363,6 +1377,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "ECommerceAPI.Application/1.0.0": {
+      "type": "project",
+      "path": "../../Core/ECoommerceAPI.Application/ECommerceAPI.Application.csproj",
+      "msbuildProject": "../../Core/ECoommerceAPI.Application/ECommerceAPI.Application.csproj"
+    },
     "ECommerceAPI.Domain/1.0.0": {
       "type": "project",
       "path": "../../Core/ECommerceAPI.Domain/ECommerceAPI.Domain.csproj",
@@ -1371,6 +1390,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "ECommerceAPI.Application >= 1.0.0",
       "ECommerceAPI.Domain >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 7.0.4",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.4",
@@ -1408,6 +1428,9 @@
           "projectReferences": {
             "C:\\Users\\burak.ipekci\\Documents\\GitHub\\E-commerce_Basic\\ECommerceAPI\\Core\\ECommerceAPI.Domain\\ECommerceAPI.Domain.csproj": {
               "projectPath": "C:\\Users\\burak.ipekci\\Documents\\GitHub\\E-commerce_Basic\\ECommerceAPI\\Core\\ECommerceAPI.Domain\\ECommerceAPI.Domain.csproj"
+            },
+            "C:\\Users\\burak.ipekci\\Documents\\GitHub\\E-commerce_Basic\\ECommerceAPI\\Core\\ECoommerceAPI.Application\\ECommerceAPI.Application.csproj": {
+              "projectPath": "C:\\Users\\burak.ipekci\\Documents\\GitHub\\E-commerce_Basic\\ECommerceAPI\\Core\\ECoommerceAPI.Application\\ECommerceAPI.Application.csproj"
             }
           }
         }

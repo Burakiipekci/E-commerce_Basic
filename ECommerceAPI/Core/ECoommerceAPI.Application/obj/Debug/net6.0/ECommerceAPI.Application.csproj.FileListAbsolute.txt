@@ -10,3 +10,6 @@ C:\Users\burak.ipekci\Documents\GitHub\E-commerce_Basic\ECommerceAPI\Core\ECoomm
 C:\Users\burak.ipekci\Documents\GitHub\E-commerce_Basic\ECommerceAPI\Core\ECoommerceAPI.Application\obj\Debug\net6.0\refint\ECommerceAPI.Application.dll
 C:\Users\burak.ipekci\Documents\GitHub\E-commerce_Basic\ECommerceAPI\Core\ECoommerceAPI.Application\obj\Debug\net6.0\ECommerceAPI.Application.pdb
 C:\Users\burak.ipekci\Documents\GitHub\E-commerce_Basic\ECommerceAPI\Core\ECoommerceAPI.Application\obj\Debug\net6.0\ref\ECommerceAPI.Application.dll
+C:\Users\burak.ipekci\Documents\GitHub\E-commerce_Basic\ECommerceAPI\Core\ECoommerceAPI.Application\bin\Debug\net6.0\ECommerceAPI.Domain.dll
+C:\Users\burak.ipekci\Documents\GitHub\E-commerce_Basic\ECommerceAPI\Core\ECoommerceAPI.Application\bin\Debug\net6.0\ECommerceAPI.Domain.pdb
+C:\Users\burak.ipekci\Documents\GitHub\E-commerce_Basic\ECommerceAPI\Core\ECoommerceAPI.Application\obj\Debug\net6.0\ECommerceAPI.Application.csproj.CopyComplete

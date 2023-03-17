@@ -56,3 +56,11 @@ C:\Users\burak.ipekci\Documents\GitHub\E-commerce_Basic\ECommerceAPI\Presentatio
 C:\Users\burak.ipekci\Documents\GitHub\E-commerce_Basic\ECommerceAPI\Presentation\ECommerceAPI.API\obj\Debug\net6.0\ECommerceAPI.API.pdb
 C:\Users\burak.ipekci\Documents\GitHub\E-commerce_Basic\ECommerceAPI\Presentation\ECommerceAPI.API\obj\Debug\net6.0\ECommerceAPI.API.genruntimeconfig.cache
 C:\Users\burak.ipekci\Documents\GitHub\E-commerce_Basic\ECommerceAPI\Presentation\ECommerceAPI.API\obj\Debug\net6.0\ref\ECommerceAPI.API.dll
+C:\Users\burak.ipekci\Documents\GitHub\E-commerce_Basic\ECommerceAPI\Presentation\ECommerceAPI.API\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+C:\Users\burak.ipekci\Documents\GitHub\E-commerce_Basic\ECommerceAPI\Presentation\ECommerceAPI.API\bin\Debug\net6.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\burak.ipekci\Documents\GitHub\E-commerce_Basic\ECommerceAPI\Presentation\ECommerceAPI.API\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\burak.ipekci\Documents\GitHub\E-commerce_Basic\ECommerceAPI\Presentation\ECommerceAPI.API\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\burak.ipekci\Documents\GitHub\E-commerce_Basic\ECommerceAPI\Presentation\ECommerceAPI.API\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\burak.ipekci\Documents\GitHub\E-commerce_Basic\ECommerceAPI\Presentation\ECommerceAPI.API\bin\Debug\net6.0\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\burak.ipekci\Documents\GitHub\E-commerce_Basic\ECommerceAPI\Presentation\ECommerceAPI.API\bin\Debug\net6.0\ECommerceAPI.Application.dll
+C:\Users\burak.ipekci\Documents\GitHub\E-commerce_Basic\ECommerceAPI\Presentation\ECommerceAPI.API\bin\Debug\net6.0\ECommerceAPI.Application.pdb

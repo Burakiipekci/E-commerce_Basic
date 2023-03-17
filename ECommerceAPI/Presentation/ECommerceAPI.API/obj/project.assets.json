@@ -621,6 +621,20 @@
           "buildTransitive/net6.0/System.Text.Json.targets": {}
         }
       },
+      "ECommerceAPI.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "ECommerceAPI.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "7.0.4"
+        },
+        "compile": {
+          "bin/placeholder/ECommerceAPI.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ECommerceAPI.Application.dll": {}
+        }
+      },
       "ECommerceAPI.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -635,6 +649,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "ECommerceAPI.Application": "1.0.0",
           "ECommerceAPI.Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore": "7.0.4",
           "Microsoft.Extensions.Configuration": "7.0.0",
@@ -1554,6 +1569,11 @@
         "system.text.json.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "ECommerceAPI.Application/1.0.0": {
+      "type": "project",
+      "path": "../../Core/ECoommerceAPI.Application/ECommerceAPI.Application.csproj",
+      "msbuildProject": "../../Core/ECoommerceAPI.Application/ECommerceAPI.Application.csproj"
     },
     "ECommerceAPI.Domain/1.0.0": {
       "type": "project",
