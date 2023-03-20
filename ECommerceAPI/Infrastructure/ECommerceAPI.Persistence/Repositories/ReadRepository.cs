@@ -22,12 +22,36 @@ namespace ECommerceAPI.Persistence.Repositories
 
         public DbSet<T> Table => _context.Set<T>();
 
-        public IQueryable<T> GetAll() => Table;
+        public IQueryable<T> GetAll(bool trackig = true)
+        {
+            var query = Table.AsQueryable();
+            if (!trackig)
+            {
+               query= query.AsNoTracking();
+            }
+            return query;
+        }
 
-        public IQueryable<T> GetWhere(Expression<Func<T, bool>> method) => Table.Where(method);
+        public IQueryable<T> GetWhere(Expression<Func<T, bool>> method, bool trackig = true)
+        {
+            var query = Table.Where(method);
+            if (!trackig)
+            {
+                query = query.AsNoTracking();
+            }
+            return query;
+        }
 
-        public async Task<T> GetSingleAsync(Expression<Func<T, bool>> method) => await Table.FirstOrDefaultAsync(method);
-        public async Task<T> GetByIdAsync(string id) => await Table.FindAsync(Guid.Parse(id));
+        public async Task<T> GetSingleAsync(Expression<Func<T, bool>> method, bool trackig = true)
+        {
+            var query = Table.AsQueryable();
+            if (!trackig)
+            {
+                query = Table.AsNoTracking();
+            }
+            return await query.FirstOrDefaultAsync(method);
+        }
+        public async Task<T> GetByIdAsync(string id, bool trackig = true) => await Table.FindAsync(Guid.Parse(id));
 
     }
 }
