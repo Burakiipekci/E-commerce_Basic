@@ -11,27 +11,28 @@ namespace ECommerceAPI.API.Controllers
     {
         readonly private IProductWriteRepository _productWriteRepository;
         readonly private IProductReadRepository _productReadRepository;
-
-        public ProductController(IProductWriteRepository productWriteRepository, IProductReadRepository productReadRepository)
+        readonly private IOrderWriteRepository _orderRepository;
+        public ProductController(IProductWriteRepository productWriteRepository, IProductReadRepository productReadRepository, IOrderWriteRepository orderRepository)
         {
             _productWriteRepository = productWriteRepository;
             _productReadRepository = productReadRepository;
+            _orderRepository = orderRepository;
         }
         [HttpGet]
-        public async Task Get() {
-
-        await _productWriteRepository.AddRangeAsync(new()
-            { 
-                new() {Id= Guid.NewGuid(), Name="Product 1", Price=100, CreatedDate=DateTime.UtcNow, Stock=10},
-                new() {Id= Guid.NewGuid(), Name="Product 2", Price=200, CreatedDate=DateTime.UtcNow, Stock=110},
-                new() {Id= Guid.NewGuid(), Name="Product 3", Price=300, CreatedDate=DateTime.UtcNow, Stock=103}
-            }) ;
+        public async Task Add() {
+        //await _productWriteRepository.AddRangeAsync(new()
+            //{ 
+                //new() {Id= Guid.NewGuid(), Name="Product 1", Price=100, CreatedDate=DateTime.UtcNow, Stock=10},
+                //new() {Id= Guid.NewGuid(), Name="Product 2", Price=200, CreatedDate=DateTime.UtcNow, Stock=110},
+                //new() {Id= Guid.NewGuid(), Name="Product 3", Price=300, CreatedDate=DateTime.UtcNow, Stock=103}
+            //}) ;
          await _productWriteRepository.SaveAsync();
                 }
         [HttpGet("id")]
-        public async Task<IActionResult> Get(string id)
+        public async Task<IActionResult> GetById(string id)
         {
             Product product = await _productReadRepository.GetByIdAsync(id);
+
             return Ok(product);
         }
     }

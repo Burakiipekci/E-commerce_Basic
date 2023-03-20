@@ -51,7 +51,17 @@ namespace ECommerceAPI.Persistence.Repositories
             }
             return await query.FirstOrDefaultAsync(method);
         }
-        public async Task<T> GetByIdAsync(string id, bool trackig = true) => await Table.FindAsync(Guid.Parse(id));
+        public async Task<T> GetByIdAsync(string id, bool trackig = true)
+        {
+            var query = Table.AsQueryable();
+            if (!trackig)
+            {
+                query = Table.AsNoTracking();
+
+            }
+            return await query.FirstOrDefaultAsync(data => data.Id == Guid.Parse(id));
+
+        }
 
     }
 }
