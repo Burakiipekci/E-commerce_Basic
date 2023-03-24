@@ -28,12 +28,6 @@ namespace ECommerceAPI.API.Controllers
             //}) ;
          await _productWriteRepository.SaveAsync();
                 }
-        [HttpGet("id")]
-        public async Task<IActionResult> GetById(string id)
-        {
-            Product product = await _productReadRepository.GetByIdAsync(id);
 
-            return Ok(product);
-        }
     }
 }

@@ -12,7 +12,8 @@ import { BasketModule } from './basket/basket.module';
     CommonModule,
     ProductsModule,
     HomeModule,
-    BasketModule
+    BasketModule,
+    
   ]
 })
 export class ComponentsModule { }

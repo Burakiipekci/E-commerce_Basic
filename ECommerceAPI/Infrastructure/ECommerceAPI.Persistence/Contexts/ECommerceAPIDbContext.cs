@@ -13,13 +13,14 @@ namespace ECommerceAPI.Persistence.Contexts
 {
     public class ECommerceAPIDbContext : DbContext
     {
-
-
         public ECommerceAPIDbContext(DbContextOptions options) : base(options)
         { }
+
         public DbSet<Product> Products { get; set; }
         public DbSet<Order> Orders { get; set; }
         public DbSet<Customer> Customers { get; set; }
+
+
         public override async Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
         {
             // ChangeTracker = Entityler üzerinden yapılan değişiklerin ya da yeni eklenen verinin yakalanmasını sağlayan prop dur. Update operasyonlarında Trac edilen verileri
