@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { DashboardModule } from './admin/components/dashboard/dashboard.module';
+import { DashboardModule } from './admin/components/dashboards/dashboard.module';
 import { LayoutComponent } from './admin/layout/layout.component';
 import { HomeComponent } from './ui/components/home/home.component';
 
@@ -40,21 +40,20 @@ const routes: Routes = [
     loadChildren: () =>
       import('./ui/components/basket/basket.module').then(
         (module) => module.BasketModule
-      ),
-  },
+      )},
   {
     path: 'products',
     loadChildren: () =>
       import('./ui/components/products/products.module').then(
         (module) => module.ProductsModule
-      ),
-  },{
-    path: 'dashboard',
-    loadChildren: () =>
-      import('./admin/components/dashboard/dashboard.module').then(
-        (module) => module.DashboardModule
-      ),
-  }
+      )},
+
+      {
+        path: 'dashboard',
+        loadChildren: () =>
+          import('./admin/components/dashboards/dashboard.module').then(
+            (module) => module.DashboardModule
+          )},
   
 ];
 

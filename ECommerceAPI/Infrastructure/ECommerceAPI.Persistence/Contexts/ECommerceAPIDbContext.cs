@@ -15,16 +15,9 @@ namespace ECommerceAPI.Persistence.Contexts
     {
         public ECommerceAPIDbContext(DbContextOptions options) : base(options)
         { }
-
-        public DbSet<Product> Products { get; set; }
-        public DbSet<Order> Orders { get; set; }
-        public DbSet<Customer> Customers { get; set; }
-
-
         public override async Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
         {
-            // ChangeTracker = Entityler üzerinden yapılan değişiklerin ya da yeni eklenen verinin yakalanmasını sağlayan prop dur. Update operasyonlarında Trac edilen verileri
-            //yakalayığ elde etmemizi sağlar.
+            // ChangeTracker = Entityler üzerinden yapılan değişiklerin ya da yeni eklenen verinin yakalanmasını sağlayan prop dur. Update operasyonlarında edilen verileri yakalayıp elde etmemizi sağlar.
             var datas = ChangeTracker.Entries<BaseEntity>();
             foreach (var data in datas)
             {
@@ -36,5 +29,11 @@ namespace ECommerceAPI.Persistence.Contexts
             }
             return await base.SaveChangesAsync(cancellationToken);
         }
+
+        public DbSet<Product> Products { get; set; }
+        public DbSet<Order> Orders { get; set; }
+        public DbSet<Customer> Customers { get; set; }
+
     }
+
 }

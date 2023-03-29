@@ -5,6 +5,8 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddPersistenceServices();
 
+builder.Services.AddCors(options => options.AddDefaultPolicy(policy => policy.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin())); // Gelebilecek isteklere izin veriyoruz.
+
 // Add services to the container.
 
 builder.Services.AddControllers();
@@ -21,7 +23,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-
+app.UseCors();
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
