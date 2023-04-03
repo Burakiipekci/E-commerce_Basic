@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wpf.RightClickCustomSettings", "Wpf.RightClickCustomSettings\Wpf.RightClickCustomSettings.csproj", "{95034FB5-AD20-474D-9108-12304EDFB449}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{95034FB5-AD20-474D-9108-12304EDFB449}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95034FB5-AD20-474D-9108-12304EDFB449}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95034FB5-AD20-474D-9108-12304EDFB449}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95034FB5-AD20-474D-9108-12304EDFB449}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1FE51F91-E3CF-4C6E-A7C0-54F512F3FE6C}
+	EndGlobalSection
+EndGlobal
